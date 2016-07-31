@@ -9,7 +9,7 @@ if __name__ == "__main__":
     parser.add_argument("file", type=str, help="Input file")
     parser.add_argument("out_dir", type=str, help="Output directory")
     parser.add_argument("--format", type=str, default="png", help="Output format (defaults to png)")
-    parser.add_argument("--pal", type=str, default="classic", choices=PALETTES.keys(), help="Palette to use")
+    parser.add_argument("--pal", type=str, default="classic", choices=PALETTES.keys())
     args = parser.parse_args()
 
     try:
