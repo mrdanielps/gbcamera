@@ -32,3 +32,4 @@ For more information about the available palettes, look in the [`samples/`](samp
 
 # Credits
  * Jeff F. for [documenting](http://www.devrs.com/gb/files/gbcam.txt) the save file structure.
+ * [Ilias G.](https://github.com/giech) for fixing the palette values.
