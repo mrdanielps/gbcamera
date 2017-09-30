@@ -23,6 +23,7 @@ PALETTES = {
 class GBCamImageFile(ImageFile.ImageFile):
     format = "GBCamera"
     format_description = "Game Boy Camera save file"
+    _close_exclusive_fp_after_loading = False
 
     __fp = None
     __frame = 0
